@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MordhauGameMode.h"
+#include "UnrealNetwork.h"
 void AMordhauGameMode::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
@@ -9,6 +10,33 @@ void AMordhauGameMode::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & 
 	//DOREPLIFETIME(AAdvancedCharacter, Health);
 	//DOREPLIFETIME(AAdvancedCharacter, ReplicatedHealth);
 	//DOREPLIFETIME(AAdvancedCharacter, NextHealthTick);
+	
+	DOREPLIFETIME(AMordhauGameMode, CurrentlySpawningStage)
+	DOREPLIFETIME(AMordhauGameMode, bMatchTimeRanOut)
+	DOREPLIFETIME(AMordhauGameMode, PlayerRespawnTime)
+	DOREPLIFETIME(AMordhauGameMode, bUsesSlowPlayerSpawning)
+	DOREPLIFETIME(AMordhauGameMode, bPlayersSpawnInWaves)
+	DOREPLIFETIME(AMordhauGameMode, bPlayersDropAllGearOnDeath)
+	DOREPLIFETIME(AMordhauGameMode, bEquipmentDoesNotDespawn)
+	DOREPLIFETIME(AMordhauGameMode, BallistaRespawnTime)
+	DOREPLIFETIME(AMordhauGameMode, CatapultRespawnTime)
+	DOREPLIFETIME(AMordhauGameMode, HorseRespawnTime)
+	DOREPLIFETIME(AMordhauGameMode, bServerIsTravelling)
+	DOREPLIFETIME(AMordhauGameMode, DamageFactor)
+	DOREPLIFETIME(AMordhauGameMode, TeamDamageFactor)
+	DOREPLIFETIME(AMordhauGameMode, SpawnProtectionDuration)
+	DOREPLIFETIME(AMordhauGameMode, bDisableDamage)
+	DOREPLIFETIME(AMordhauGameMode, bDisableStamina)
+	DOREPLIFETIME(AMordhauGameMode, bIsScoringDisabled)
+	DOREPLIFETIME(AMordhauGameMode, AssistScoreFactor)
+	DOREPLIFETIME(AMordhauGameMode, AssistDamageToCountAsKill)
+	DOREPLIFETIME(AMordhauGameMode, KillScoreChange)
+	DOREPLIFETIME(AMordhauGameMode, KillTeamScoreChange)
+	DOREPLIFETIME(AMordhauGameMode, TeamKillScoreChange)
+	DOREPLIFETIME(AMordhauGameMode, TeamKillTeamScoreChange)
+	DOREPLIFETIME(AMordhauGameMode, bTeamKillsDecrementKillerKills)
+	DOREPLIFETIME(AMordhauGameMode, bTeamKillsIncrementKilledDeaths)
+	DOREPLIFETIME(AMordhauGameMode, bSuicideDecrementsKills)
 
 }
 

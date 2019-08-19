@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MordhauGameState.h"
-
+#include "UnrealNetwork.h"
 
 void AMordhauGameState::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const
 {
@@ -12,6 +12,39 @@ void AMordhauGameState::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > &
 	//DOREPLIFETIME(AAdvancedCharacter, ReplicatedHealth);
 	//DOREPLIFETIME(AAdvancedCharacter, NextHealthTick);
 
+	DOREPLIFETIME(AMordhauGameState, CharacterDistanceArray)
+	DOREPLIFETIME(AMordhauGameState, CharacterToDistanceArray)
+	DOREPLIFETIME(AMordhauGameState, bDisableClientStats)
+	DOREPLIFETIME(AMordhauGameState, bDisableChat)
+	DOREPLIFETIME(AMordhauGameState, bDisableScoreboard)
+	DOREPLIFETIME(AMordhauGameState, bAllowHealthRegen)
+	DOREPLIFETIME(AMordhauGameState, bDoNotLimitPlaceables)
+	DOREPLIFETIME(AMordhauGameState, bOverrideArmorSpeedAndAccelerationFactor)
+	DOREPLIFETIME(AMordhauGameState, OverrideArmorSpeedFactor)
+	DOREPLIFETIME(AMordhauGameState, OverrideArmorAccelerationFactor)
+	DOREPLIFETIME(AMordhauGameState, bAllPlayersHaveMarkers)
+	DOREPLIFETIME(AMordhauGameState, MatchDurationMax)
+	DOREPLIFETIME(AMordhauGameState, DefaultEndMatchMapChangeTime)
+	DOREPLIFETIME(AMordhauGameState, EndMatchMapChangeEnd)
+	DOREPLIFETIME(AMordhauGameState, PostMatchScreenDelay)
+	DOREPLIFETIME(AMordhauGameState, DefaultWarmupTime)
+	DOREPLIFETIME(AMordhauGameState, bSkipWarmupInDevBuild)
+	DOREPLIFETIME(AMordhauGameState, bBlockInputInWarmup)
+	DOREPLIFETIME(AMordhauGameState, MinPlayersToStart)
+	DOREPLIFETIME(AMordhauGameState, WarmupEnd)
+	DOREPLIFETIME(AMordhauGameState, bDoNotGoToNextMapOnMatchEnd)
+	DOREPLIFETIME(AMordhauGameState, bDoNotShowPostMatchScreen)
+	DOREPLIFETIME(AMordhauGameState, bAllowSpawning)
+	DOREPLIFETIME(AMordhauGameState, TeamScores)
+	DOREPLIFETIME(AMordhauGameState, bIsTeamMode)
+	DOREPLIFETIME(AMordhauGameState, bEnforceTeamColors)
+	DOREPLIFETIME(AMordhauGameState, Team1CapturePoints)
+	DOREPLIFETIME(AMordhauGameState, Team2CapturePoints)
+	DOREPLIFETIME(AMordhauGameState, Team1TopologicalProgress)
+	DOREPLIFETIME(AMordhauGameState, Team2TopologicalProgress)
+	DOREPLIFETIME(AMordhauGameState, LastBotVoiceCommandTime)
+	DOREPLIFETIME(AMordhauGameState, LastBotEmoteTime)
+	DOREPLIFETIME(AMordhauGameState, LastBotClimbTime)
 }
 
 void AMordhauGameState::UpdateCapturePointData()

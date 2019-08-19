@@ -18,86 +18,86 @@ class MORDHAU_API AMordhauCharacter : public AAdvancedCharacter
 {
 	GENERATED_BODY()
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 		float                                              FallingTimeToRagdoll;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 		float                                              FallingTime;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 			float                                              JumpStaminaCost;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 			float                                              StaminaRegenTickRate;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 			int                                                HealthOnKill;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 			bool                                               bIsUnflinchable;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 			float                                              MeleeMissRecoveryModifier;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 			int                                                DodgeStaminaCost;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 		bool                                               bHasScaryFace;
-			UPROPERTY(EditAnywhere, BlueprintReadWrite)
+			UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 				float                                              DodgeCooldown;
-			UPROPERTY(EditAnywhere, BlueprintReadWrite)
+			UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 				float                                              DodgeDuration;
-				UPROPERTY(EditAnywhere, BlueprintReadWrite)
+				UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 					float                                              EasyParryUntilTime;
-				UPROPERTY(EditAnywhere, BlueprintReadWrite)
+				UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 				bool                                               bDestroyEquipmentOnDeath;
-				UPROPERTY(EditAnywhere, BlueprintReadWrite)
+				UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 				float                                              MeleeReleaseModifier;
-				UPROPERTY(EditAnywhere, BlueprintReadWrite)
+				UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 				float                                              StaminaCostModifier;
-				UPROPERTY(EditAnywhere, BlueprintReadWrite)
+				UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 					float                                              MeleeWindupModifier;
-				//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+				//UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 					//TArray<TWeakObjectPtr<class AActor>>               ActorsThatDestroyWithUs;
-					UPROPERTY(EditAnywhere, BlueprintReadWrite)
+					UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 						bool                                               bDoNotUseGrounding;
-					UPROPERTY(EditAnywhere, BlueprintReadWrite)
+					UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 						bool                                               bIsRightArmDisabled;
-						UPROPERTY(EditAnywhere, BlueprintReadWrite)
+						UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 							bool                                               bIsRightLegDisabled;
-						UPROPERTY(EditAnywhere, BlueprintReadWrite)
+						UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 						bool                                               bIsLeftLegDisabled;
-						UPROPERTY(EditAnywhere, BlueprintReadWrite)
+						UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 							bool                                               bIsLeftArmDisabled;
-							UPROPERTY(EditAnywhere, BlueprintReadWrite)
+							UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 								bool                                               bIsHoldingBlock;
-							UPROPERTY(EditAnywhere, BlueprintReadWrite)
+							UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 								bool                                               bDoNotAnimateBreathing;
-							UPROPERTY(EditAnywhere, BlueprintReadWrite)
+							UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 								float                                              ReceivedFireDamageModifierWithFireproofPerk;
-								UPROPERTY(EditAnywhere, BlueprintReadWrite)
+								UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									float                                              ReceivedDamageModifierWithFriendlyPerk;
-								UPROPERTY(EditAnywhere, BlueprintReadWrite)
+								UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									int StaminaRegenPerTick;
-								UPROPERTY(EditAnywhere, BlueprintReadWrite)
+								UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									int stamina;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 										float StaminaRegenDelay;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									int                                                StaminaOnKill;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									float                                              MovementBoostDurationWithRushPerk;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									float                                              MinDelayBetweenBattlecries;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									float                                              MinDelayBetweenVoiceCommands;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									bool                                               bIsWrithingInPain;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									float                                              MaxThirdPersonFOV;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									float                                              CurrentFOVOffset;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									struct FVector                                     CameraLocation1P;
-									UPROPERTY(EditAnywhere, BlueprintReadWrite)
+									UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 									float                                              UseHoldTime;
-//		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+//		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 //			class AMordhauEquipment*                           RightHandEquipment;
 
-	//	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	//			TArray<class AMordhauEquipment*>                   Equipment;
 	//	UFUNCTION(BlueprintCallable)
 	//			bool PickUpToSlot(class AMordhauEquipment* ToEquip, uint8 Slot);
@@ -118,4 +118,10 @@ public:
 		 bool CanEasyParry();
 		UFUNCTION(BlueprintCallable, Category = "MordhauCharFns")
 		void EnteredTeamArea(int OwningTeam);
+		UFUNCTION(BlueprintCallable, Category = "MordhauCharFns")
+		void UseReleased();
+		UFUNCTION(BlueprintCallable, Category = "MordhauCharFns")
+		void UsePressed();
+		UFUNCTION(BlueprintCallable, Category = "MordhauCharFns")
+		bool ValidateInteractionTarget(class AActor* TargetActor);
 };

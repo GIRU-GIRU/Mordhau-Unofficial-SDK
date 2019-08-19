@@ -17,9 +17,9 @@ public:
 	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	int Team;
 	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
-		int Health;
+		uint8 Health;
 	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
-		int ReplicatedHealth;
+		uint8 ReplicatedHealth;
 	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float TurnRateCap;
 	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)

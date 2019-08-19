@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
+#include "Engine.h"
 #include "MordhauCharacter.h"
 #include "Mordhau.h"
 #include "MordhauAIController.generated.h"

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "AdvancedCharacterMovement.generated.h"
 
@@ -14,63 +15,63 @@ class MORDHAU_API UAdvancedCharacterMovement : public UCharacterMovementComponen
 {
 	GENERATED_BODY()
 public:
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              LastFallingCheckVelocityZ;
-//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+//UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 //	class UCrowdManager*                               CrowdManager;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	bool                                               bUseMordhauRotationInterpMode;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              MordhauRotationSmoothStartTime;
-//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+//UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 //	struct FQuat                                       MordhauRotationSmoothFrom;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              StillTimeWhileRagdollFalling;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              PerchRadiusThresholdRagdollFalling;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              MinVelocityForFallDamage;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              FallDamageOffset;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              FallDamageFactor;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              RagdollMinVelocityForFallDamage;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              RagdollFallDamageOffset;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              RagdollFallDamageFactor;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	bool                                               bReverseBackwardsTurning;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	bool                                               bUsePendingRotationToOrientMovement;
-//UPROPERTY(EditAnywhere, BlueprintReadWrite)							// POSSIBLY USEFUL, ADD BACK
+//UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)							// POSSIBLY USEFUL, ADD BACK
 //	struct FVector                                     PreviousVelocity;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              PendingTurnValue;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	bool                                               bIgnoreMovementInput;
-/*UPROPERTY(EditAnywhere, BlueprintReadWrite)
+/*UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	struct FVector                                     OffsetMeshTranslation;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	struct FVector                                     OffsetExtrapolation;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	struct FVector                                     OffsetExtrapolationTarget;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	struct FVector                                     OffsetCorrectionLeftover;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	struct FVector                                     OffsetNetSmoothLeftover;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	struct FVector                                     OffsetNetSmoothPending;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	struct FVector                                     MovementComponentMeshOffset;*/
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              AuthNetSmoothTime;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	float                                              AuthNetMaxSmoothDist;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	bool                                               bDisableAuthNetSmoothing;
-UPROPERTY(EditAnywhere, BlueprintReadWrite)
+UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite)
 	int                                                SkipPredictionForAnimTickSkipOrGreater;
 	
 	

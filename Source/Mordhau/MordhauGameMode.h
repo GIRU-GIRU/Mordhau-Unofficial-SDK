@@ -5,12 +5,20 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "GameFramework/GameMode.h"
+#include "Engine.h"
 #include "MordhauGameMode.generated.h"
 
 /**
  * 
  */
-
+enum class EMordhauDamageType : uint8
+{
+	Generic,
+	Melee,
+	Ranged,
+	Fall,
+	Fire
+};
 
 /*UENUM()
 enum class EMordhauDamageType : uint8

@@ -11,6 +11,27 @@ void AAdvancedCharacter::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > 
 	//DOREPLIFETIME(AAdvancedCharacter, Health);
 	//DOREPLIFETIME(AAdvancedCharacter, ReplicatedHealth);
 	//DOREPLIFETIME(AAdvancedCharacter, NextHealthTick);
+	DOREPLIFETIME(AAdvancedCharacter, Team)
+	DOREPLIFETIME(AAdvancedCharacter, Health)
+	DOREPLIFETIME(AAdvancedCharacter, ReplicatedHealth)
+	DOREPLIFETIME(AAdvancedCharacter, TurnRateCap)
+	DOREPLIFETIME(AAdvancedCharacter, ReceivedDamageModifier)
+	DOREPLIFETIME(AAdvancedCharacter, bIsDead)
+	DOREPLIFETIME(AAdvancedCharacter, NextHealthTick)
+	DOREPLIFETIME(AAdvancedCharacter, HealthRegenDelay)
+	DOREPLIFETIME(AAdvancedCharacter, bIgnoreGameStateHealthRegenRestriction)
+	DOREPLIFETIME(AAdvancedCharacter, KnockbackFlinch)
+	DOREPLIFETIME(AAdvancedCharacter, RagdollFallingMinTime)
+	DOREPLIFETIME(AAdvancedCharacter, RagdollFallingMinVelocityToGetUp)
+	DOREPLIFETIME(AAdvancedCharacter, AirborneTime)
+	DOREPLIFETIME(AAdvancedCharacter, bIsRagdollFalling)
+	DOREPLIFETIME(AAdvancedCharacter, bIsUsingRagdollFallingCollision)
+	DOREPLIFETIME(AAdvancedCharacter, OutOfBoundsKillTime)
+	DOREPLIFETIME(AAdvancedCharacter, RagdollFallingGetUpDuration)
+	DOREPLIFETIME(AAdvancedCharacter, TurnLimit)
+	DOREPLIFETIME(AAdvancedCharacter, RagdollFallingStartTime)
+	DOREPLIFETIME(AAdvancedCharacter, JumpCooldown)
+	DOREPLIFETIME(AAdvancedCharacter, bTurnRateIgnoresCap)
 
 }
 	bool AAdvancedCharacter::GetIsDead()
