@@ -1,0 +1,2 @@
+#include "AudioCurveSourceComponent.h"
+

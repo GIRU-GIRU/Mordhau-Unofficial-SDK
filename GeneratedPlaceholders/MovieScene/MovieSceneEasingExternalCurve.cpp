@@ -1,0 +1,2 @@
+#include "MovieSceneEasingExternalCurve.h"
+

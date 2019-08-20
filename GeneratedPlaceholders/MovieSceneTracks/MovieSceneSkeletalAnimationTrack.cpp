@@ -1,0 +1,2 @@
+#include "MovieSceneSkeletalAnimationTrack.h"
+

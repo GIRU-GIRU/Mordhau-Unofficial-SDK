@@ -1,0 +1,176 @@
+#include "PlayFabAdminModelDecoder.h"
+
+struct FAdminUpdateUserTitleDisplayNameResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateUserTitleDisplayNameResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdateUserDataResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateUserDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdateStoreItemsResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateStoreItemsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdateRandomResultTablesResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateRandomResultTablesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdatePolicyResponse UPlayFabAdminModelDecoder::STATIC_decodeUpdatePolicyResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdatePlayerStatisticDefinitionResult UPlayFabAdminModelDecoder::STATIC_decodeUpdatePlayerStatisticDefinitionResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdatePlayerSharedSecretResult UPlayFabAdminModelDecoder::STATIC_decodeUpdatePlayerSharedSecretResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdateCloudScriptResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateCloudScriptResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdateCatalogItemsResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateCatalogItemsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminUpdateBansResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateBansResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminSetupPushNotificationResult UPlayFabAdminModelDecoder::STATIC_decodeSetupPushNotificationResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminSetTitleDataResult UPlayFabAdminModelDecoder::STATIC_decodeSetTitleDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminSetPublisherDataResult UPlayFabAdminModelDecoder::STATIC_decodeSetPublisherDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminSetPublishedRevisionResult UPlayFabAdminModelDecoder::STATIC_decodeSetPublishedRevisionResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminSetPlayerSecretResult UPlayFabAdminModelDecoder::STATIC_decodeSetPlayerSecretResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminSendAccountRecoveryEmailResult UPlayFabAdminModelDecoder::STATIC_decodeSendAccountRecoveryEmailResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRunTaskResult UPlayFabAdminModelDecoder::STATIC_decodeRunTaskResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRevokeInventoryResult UPlayFabAdminModelDecoder::STATIC_decodeRevokeInventoryResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRevokeInventoryItemsResult UPlayFabAdminModelDecoder::STATIC_decodeRevokeInventoryItemsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRevokeBansResult UPlayFabAdminModelDecoder::STATIC_decodeRevokeBansResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRevokeAllBansForUserResult UPlayFabAdminModelDecoder::STATIC_decodeRevokeAllBansForUserResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminResolvePurchaseDisputeResponse UPlayFabAdminModelDecoder::STATIC_decodeResolvePurchaseDisputeResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminResetUserStatisticsResult UPlayFabAdminModelDecoder::STATIC_decodeResetUserStatisticsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminResetPasswordResult UPlayFabAdminModelDecoder::STATIC_decodeResetPasswordResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminResetCharacterStatisticsResult UPlayFabAdminModelDecoder::STATIC_decodeResetCharacterStatisticsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRemoveServerBuildResult UPlayFabAdminModelDecoder::STATIC_decodeRemoveServerBuildResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRemovePlayerTagResult UPlayFabAdminModelDecoder::STATIC_decodeRemovePlayerTagResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminRefundPurchaseResponse UPlayFabAdminModelDecoder::STATIC_decodeRefundPurchaseResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminModifyUserVirtualCurrencyResult UPlayFabAdminModelDecoder::STATIC_decodeModifyUserVirtualCurrencyResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminModifyServerBuildResult UPlayFabAdminModelDecoder::STATIC_decodeModifyServerBuildResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminModifyMatchmakerGameModesResult UPlayFabAdminModelDecoder::STATIC_decodeModifyMatchmakerGameModesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminLookupUserAccountInfoResult UPlayFabAdminModelDecoder::STATIC_decodeLookupUserAccountInfoResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminListVirtualCurrencyTypesResult UPlayFabAdminModelDecoder::STATIC_decodeListVirtualCurrencyTypesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminListOpenIdConnectionResponse UPlayFabAdminModelDecoder::STATIC_decodeListOpenIdConnectionResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminListBuildsResult UPlayFabAdminModelDecoder::STATIC_decodeListBuildsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminIncrementPlayerStatisticVersionResult UPlayFabAdminModelDecoder::STATIC_decodeIncrementPlayerStatisticVersionResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminIncrementLimitedEditionItemAvailabilityResult UPlayFabAdminModelDecoder::STATIC_decodeIncrementLimitedEditionItemAvailabilityResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGrantItemsToUsersResult UPlayFabAdminModelDecoder::STATIC_decodeGrantItemsToUsersResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetUserInventoryResult UPlayFabAdminModelDecoder::STATIC_decodeGetUserInventoryResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetUserDataResult UPlayFabAdminModelDecoder::STATIC_decodeGetUserDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetUserBansResult UPlayFabAdminModelDecoder::STATIC_decodeGetUserBansResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetTitleDataResult UPlayFabAdminModelDecoder::STATIC_decodeGetTitleDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetTasksResult UPlayFabAdminModelDecoder::STATIC_decodeGetTasksResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetTaskInstancesResult UPlayFabAdminModelDecoder::STATIC_decodeGetTaskInstancesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetStoreItemsResult UPlayFabAdminModelDecoder::STATIC_decodeGetStoreItemsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetServerBuildUploadURLResult UPlayFabAdminModelDecoder::STATIC_decodeGetServerBuildUploadURLResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetServerBuildInfoResult UPlayFabAdminModelDecoder::STATIC_decodeGetServerBuildInfoResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetRandomResultTablesResult UPlayFabAdminModelDecoder::STATIC_decodeGetRandomResultTablesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPublisherDataResult UPlayFabAdminModelDecoder::STATIC_decodeGetPublisherDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPolicyResponse UPlayFabAdminModelDecoder::STATIC_decodeGetPolicyResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayerTagsResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayerTagsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayerStatisticVersionsResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayerStatisticVersionsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayerStatisticDefinitionsResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayerStatisticDefinitionsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayersInSegmentResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayersInSegmentResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayerSharedSecretsResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayerSharedSecretsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayerSegmentsResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayerSegmentsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayerProfileResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayerProfileResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayerIdFromAuthTokenResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayerIdFromAuthTokenResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetPlayedTitleListResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlayedTitleListResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetMatchmakerGameModesResult UPlayFabAdminModelDecoder::STATIC_decodeGetMatchmakerGameModesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetMatchmakerGameInfoResult UPlayFabAdminModelDecoder::STATIC_decodeGetMatchmakerGameInfoResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetDataReportResult UPlayFabAdminModelDecoder::STATIC_decodeGetDataReportResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetContentUploadUrlResult UPlayFabAdminModelDecoder::STATIC_decodeGetContentUploadUrlResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetContentListResult UPlayFabAdminModelDecoder::STATIC_decodeGetContentListResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetCloudScriptVersionsResult UPlayFabAdminModelDecoder::STATIC_decodeGetCloudScriptVersionsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetCloudScriptTaskInstanceResult UPlayFabAdminModelDecoder::STATIC_decodeGetCloudScriptTaskInstanceResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetCloudScriptRevisionResult UPlayFabAdminModelDecoder::STATIC_decodeGetCloudScriptRevisionResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetCatalogItemsResult UPlayFabAdminModelDecoder::STATIC_decodeGetCatalogItemsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetAllSegmentsResult UPlayFabAdminModelDecoder::STATIC_decodeGetAllSegmentsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminGetActionsOnPlayersInSegmentTaskInstanceResult UPlayFabAdminModelDecoder::STATIC_decodeGetActionsOnPlayersInSegmentTaskInstanceResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminExportMasterPlayerDataResult UPlayFabAdminModelDecoder::STATIC_decodeExportMasterPlayerDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminEmptyResponse UPlayFabAdminModelDecoder::STATIC_decodeEmptyResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminDeleteTitleResult UPlayFabAdminModelDecoder::STATIC_decodeDeleteTitleResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminDeleteStoreResult UPlayFabAdminModelDecoder::STATIC_decodeDeleteStoreResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminDeletePlayerSharedSecretResult UPlayFabAdminModelDecoder::STATIC_decodeDeletePlayerSharedSecretResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminDeletePlayerResult UPlayFabAdminModelDecoder::STATIC_decodeDeletePlayerResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminDeleteMasterPlayerAccountResult UPlayFabAdminModelDecoder::STATIC_decodeDeleteMasterPlayerAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminCreateTaskResult UPlayFabAdminModelDecoder::STATIC_decodeCreateTaskResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminCreatePlayerStatisticDefinitionResult UPlayFabAdminModelDecoder::STATIC_decodeCreatePlayerStatisticDefinitionResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminCreatePlayerSharedSecretResult UPlayFabAdminModelDecoder::STATIC_decodeCreatePlayerSharedSecretResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminCheckLimitedEditionItemAvailabilityResult UPlayFabAdminModelDecoder::STATIC_decodeCheckLimitedEditionItemAvailabilityResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminBlankResult UPlayFabAdminModelDecoder::STATIC_decodeBlankResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminBanUsersResult UPlayFabAdminModelDecoder::STATIC_decodeBanUsersResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminAddServerBuildResult UPlayFabAdminModelDecoder::STATIC_decodeAddServerBuildResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminAddPlayerTagResult UPlayFabAdminModelDecoder::STATIC_decodeAddPlayerTagResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminAddNewsResult UPlayFabAdminModelDecoder::STATIC_decodeAddNewsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FAdminAddLocalizedNewsResult UPlayFabAdminModelDecoder::STATIC_decodeAddLocalizedNewsResultResponse(class UPlayFabJsonObject* response) {
+}

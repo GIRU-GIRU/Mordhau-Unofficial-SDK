@@ -1,0 +1,2 @@
+#include "MovieSceneFadeTrack.h"
+

@@ -1,0 +1,2 @@
+#include "DatasmithAssetUserData.h"
+

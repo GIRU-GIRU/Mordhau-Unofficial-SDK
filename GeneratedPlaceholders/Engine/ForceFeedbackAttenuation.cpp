@@ -1,0 +1,2 @@
+#include "ForceFeedbackAttenuation.h"
+

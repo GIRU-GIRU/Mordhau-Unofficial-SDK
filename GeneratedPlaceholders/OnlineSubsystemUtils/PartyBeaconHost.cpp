@@ -1,0 +1,2 @@
+#include "PartyBeaconHost.h"
+

@@ -1,0 +1,2 @@
+#include "MovieSceneCameraAnimSection.h"
+

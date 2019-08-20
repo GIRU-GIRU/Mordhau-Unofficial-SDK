@@ -1,0 +1,2 @@
+#include "ClothingAsset.h"
+

@@ -1,0 +1,2 @@
+#include "ParticleModuleAcceleration.h"
+

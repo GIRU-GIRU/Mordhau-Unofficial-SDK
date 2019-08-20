@@ -1,0 +1,2 @@
+#include "LightmassPortalComponent.h"
+

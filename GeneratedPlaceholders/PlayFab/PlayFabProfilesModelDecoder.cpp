@@ -1,0 +1,14 @@
+#include "PlayFabProfilesModelDecoder.h"
+
+struct FProfilesSetProfileLanguageResponse UPlayFabProfilesModelDecoder::STATIC_decodeSetProfileLanguageResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FProfilesSetGlobalPolicyResponse UPlayFabProfilesModelDecoder::STATIC_decodeSetGlobalPolicyResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FProfilesSetEntityProfilePolicyResponse UPlayFabProfilesModelDecoder::STATIC_decodeSetEntityProfilePolicyResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FProfilesGetGlobalPolicyResponse UPlayFabProfilesModelDecoder::STATIC_decodeGetGlobalPolicyResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FProfilesGetEntityProfilesResponse UPlayFabProfilesModelDecoder::STATIC_decodeGetEntityProfilesResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FProfilesGetEntityProfileResponse UPlayFabProfilesModelDecoder::STATIC_decodeGetEntityProfileResponseResponse(class UPlayFabJsonObject* response) {
+}

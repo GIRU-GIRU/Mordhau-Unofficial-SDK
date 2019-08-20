@@ -1,0 +1,4 @@
+#include "PlayFabAuthenticationModelDecoder.h"
+
+struct FAuthenticationGetEntityTokenResponse UPlayFabAuthenticationModelDecoder::STATIC_decodeGetEntityTokenResponseResponse(class UPlayFabJsonObject* response) {
+}

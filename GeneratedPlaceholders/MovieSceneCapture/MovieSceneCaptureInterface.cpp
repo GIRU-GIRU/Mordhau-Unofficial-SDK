@@ -1,0 +1,2 @@
+#include "MovieSceneCaptureInterface.h"
+

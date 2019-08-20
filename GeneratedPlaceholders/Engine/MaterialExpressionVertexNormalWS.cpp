@@ -1,0 +1,2 @@
+#include "MaterialExpressionVertexNormalWS.h"
+

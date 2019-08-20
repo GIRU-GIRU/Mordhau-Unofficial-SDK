@@ -1,0 +1,2 @@
+#include "AIHotSpotManager.h"
+

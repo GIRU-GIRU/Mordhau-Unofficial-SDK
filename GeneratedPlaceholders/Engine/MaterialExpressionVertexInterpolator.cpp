@@ -1,0 +1,2 @@
+#include "MaterialExpressionVertexInterpolator.h"
+

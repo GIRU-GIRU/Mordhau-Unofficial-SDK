@@ -1,0 +1,2 @@
+#include "LinkerPlaceholderFunction.h"
+

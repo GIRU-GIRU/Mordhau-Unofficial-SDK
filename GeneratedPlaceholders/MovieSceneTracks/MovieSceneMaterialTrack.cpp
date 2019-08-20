@@ -1,0 +1,2 @@
+#include "MovieSceneMaterialTrack.h"
+

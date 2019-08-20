@@ -1,0 +1,2 @@
+#include "MovieSceneIntegerTrack.h"
+

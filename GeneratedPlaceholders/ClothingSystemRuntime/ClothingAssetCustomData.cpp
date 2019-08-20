@@ -1,0 +1,2 @@
+#include "ClothingAssetCustomData.h"
+

@@ -1,0 +1,2 @@
+#include "MaterialExpressionAtmosphericFogColor.h"
+

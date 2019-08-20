@@ -1,0 +1,2 @@
+#include "DatasmithPointLightComponentTemplate.h"
+

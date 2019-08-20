@@ -1,0 +1,2 @@
+#include "NamedSlotInterface.h"
+

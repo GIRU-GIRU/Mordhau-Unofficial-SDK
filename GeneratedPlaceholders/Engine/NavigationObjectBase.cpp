@@ -1,0 +1,2 @@
+#include "NavigationObjectBase.h"
+

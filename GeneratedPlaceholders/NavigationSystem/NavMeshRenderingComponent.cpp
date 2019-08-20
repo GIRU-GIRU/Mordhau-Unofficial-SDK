@@ -1,0 +1,2 @@
+#include "NavMeshRenderingComponent.h"
+

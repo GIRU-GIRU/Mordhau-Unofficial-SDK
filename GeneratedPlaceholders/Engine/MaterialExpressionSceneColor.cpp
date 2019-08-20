@@ -1,0 +1,2 @@
+#include "MaterialExpressionSceneColor.h"
+

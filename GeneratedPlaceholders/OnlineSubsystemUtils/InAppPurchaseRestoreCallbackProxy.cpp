@@ -1,0 +1,4 @@
+#include "InAppPurchaseRestoreCallbackProxy.h"
+
+class UInAppPurchaseRestoreCallbackProxy* UInAppPurchaseRestoreCallbackProxy::STATIC_CreateProxyObjectForInAppPurchaseRestore(TArray<struct FInAppPurchaseProductRequest> ConsumableProductFlags, class APlayerController* PlayerController) {
+}

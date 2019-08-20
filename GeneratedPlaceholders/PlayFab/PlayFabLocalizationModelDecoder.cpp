@@ -1,0 +1,4 @@
+#include "PlayFabLocalizationModelDecoder.h"
+
+struct FLocalizationGetLanguageListResponse UPlayFabLocalizationModelDecoder::STATIC_decodeGetLanguageListResponseResponse(class UPlayFabJsonObject* response) {
+}

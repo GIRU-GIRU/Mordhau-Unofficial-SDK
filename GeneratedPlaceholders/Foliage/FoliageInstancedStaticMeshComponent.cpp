@@ -1,0 +1,2 @@
+#include "FoliageInstancedStaticMeshComponent.h"
+

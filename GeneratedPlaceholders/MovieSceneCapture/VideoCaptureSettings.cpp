@@ -1,0 +1,2 @@
+#include "VideoCaptureSettings.h"
+

@@ -1,0 +1,2 @@
+#include "CompositionGraphCaptureSettings.h"
+

@@ -1,0 +1,2 @@
+#include "WeakObjectProperty.h"
+

@@ -1,0 +1,2 @@
+#include "ParticleModuleRotationRate.h"
+

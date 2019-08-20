@@ -1,0 +1,254 @@
+#include "PlayFabClientModelDecoder.h"
+
+struct FClientWriteEventResponse UPlayFabClientModelDecoder::STATIC_decodeWriteEventResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientValidateWindowsReceiptResult UPlayFabClientModelDecoder::STATIC_decodeValidateWindowsReceiptResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientValidateIOSReceiptResult UPlayFabClientModelDecoder::STATIC_decodeValidateIOSReceiptResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientValidateGooglePlayPurchaseResult UPlayFabClientModelDecoder::STATIC_decodeValidateGooglePlayPurchaseResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientValidateAmazonReceiptResult UPlayFabClientModelDecoder::STATIC_decodeValidateAmazonReceiptResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUpdateUserTitleDisplayNameResult UPlayFabClientModelDecoder::STATIC_decodeUpdateUserTitleDisplayNameResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUpdateUserDataResult UPlayFabClientModelDecoder::STATIC_decodeUpdateUserDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUpdateSharedGroupDataResult UPlayFabClientModelDecoder::STATIC_decodeUpdateSharedGroupDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUpdatePlayerStatisticsResult UPlayFabClientModelDecoder::STATIC_decodeUpdatePlayerStatisticsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUpdateCharacterStatisticsResult UPlayFabClientModelDecoder::STATIC_decodeUpdateCharacterStatisticsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUpdateCharacterDataResult UPlayFabClientModelDecoder::STATIC_decodeUpdateCharacterDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlockContainerItemResult UPlayFabClientModelDecoder::STATIC_decodeUnlockContainerItemResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkXboxAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkXboxAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkWindowsHelloAccountResponse UPlayFabClientModelDecoder::STATIC_decodeUnlinkWindowsHelloAccountResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkTwitchAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkTwitchAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkSteamAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkSteamAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkPSNAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkPSNAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkNintendoSwitchDeviceIdResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkNintendoSwitchDeviceIdResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkKongregateAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkKongregateAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkIOSDeviceIDResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkIOSDeviceIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkGoogleAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkGoogleAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkGameCenterAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkGameCenterAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkFacebookInstantGamesIdResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkFacebookInstantGamesIdResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkFacebookAccountResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkFacebookAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkCustomIDResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkCustomIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientUnlinkAndroidDeviceIDResult UPlayFabClientModelDecoder::STATIC_decodeUnlinkAndroidDeviceIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientStartPurchaseResult UPlayFabClientModelDecoder::STATIC_decodeStartPurchaseResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientStartGameResult UPlayFabClientModelDecoder::STATIC_decodeStartGameResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientSetPlayerSecretResult UPlayFabClientModelDecoder::STATIC_decodeSetPlayerSecretResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientSetFriendTagsResult UPlayFabClientModelDecoder::STATIC_decodeSetFriendTagsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientSendAccountRecoveryEmailResult UPlayFabClientModelDecoder::STATIC_decodeSendAccountRecoveryEmailResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRestoreIOSPurchasesResult UPlayFabClientModelDecoder::STATIC_decodeRestoreIOSPurchasesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientReportPlayerClientResult UPlayFabClientModelDecoder::STATIC_decodeReportPlayerClientResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRemoveSharedGroupMembersResult UPlayFabClientModelDecoder::STATIC_decodeRemoveSharedGroupMembersResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRemoveGenericIDResult UPlayFabClientModelDecoder::STATIC_decodeRemoveGenericIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRemoveFriendResult UPlayFabClientModelDecoder::STATIC_decodeRemoveFriendResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRemoveContactEmailResult UPlayFabClientModelDecoder::STATIC_decodeRemoveContactEmailResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRegisterPlayFabUserResult UPlayFabClientModelDecoder::STATIC_decodeRegisterPlayFabUserResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRegisterForIOSPushNotificationResult UPlayFabClientModelDecoder::STATIC_decodeRegisterForIOSPushNotificationResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientRedeemCouponResult UPlayFabClientModelDecoder::STATIC_decodeRedeemCouponResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientPurchaseItemResult UPlayFabClientModelDecoder::STATIC_decodePurchaseItemResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientPayForPurchaseResult UPlayFabClientModelDecoder::STATIC_decodePayForPurchaseResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientOpenTradeResponse UPlayFabClientModelDecoder::STATIC_decodeOpenTradeResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientModifyUserVirtualCurrencyResult UPlayFabClientModelDecoder::STATIC_decodeModifyUserVirtualCurrencyResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientMatchmakeResult UPlayFabClientModelDecoder::STATIC_decodeMatchmakeResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLoginResult UPlayFabClientModelDecoder::STATIC_decodeLoginResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientListUsersCharactersResult UPlayFabClientModelDecoder::STATIC_decodeListUsersCharactersResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkXboxAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkXboxAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkWindowsHelloAccountResponse UPlayFabClientModelDecoder::STATIC_decodeLinkWindowsHelloAccountResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkTwitchAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkTwitchAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkSteamAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkSteamAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkPSNAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkPSNAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkNintendoSwitchDeviceIdResult UPlayFabClientModelDecoder::STATIC_decodeLinkNintendoSwitchDeviceIdResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkKongregateAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkKongregateAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkIOSDeviceIDResult UPlayFabClientModelDecoder::STATIC_decodeLinkIOSDeviceIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkGoogleAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkGoogleAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkGameCenterAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkGameCenterAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkFacebookInstantGamesIdResult UPlayFabClientModelDecoder::STATIC_decodeLinkFacebookInstantGamesIdResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkFacebookAccountResult UPlayFabClientModelDecoder::STATIC_decodeLinkFacebookAccountResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkCustomIDResult UPlayFabClientModelDecoder::STATIC_decodeLinkCustomIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientLinkAndroidDeviceIDResult UPlayFabClientModelDecoder::STATIC_decodeLinkAndroidDeviceIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGrantCharacterToUserResult UPlayFabClientModelDecoder::STATIC_decodeGrantCharacterToUserResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetWindowsHelloChallengeResponse UPlayFabClientModelDecoder::STATIC_decodeGetWindowsHelloChallengeResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetUserInventoryResult UPlayFabClientModelDecoder::STATIC_decodeGetUserInventoryResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetUserDataResult UPlayFabClientModelDecoder::STATIC_decodeGetUserDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetTradeStatusResponse UPlayFabClientModelDecoder::STATIC_decodeGetTradeStatusResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetTitlePublicKeyResult UPlayFabClientModelDecoder::STATIC_decodeGetTitlePublicKeyResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetTitleNewsResult UPlayFabClientModelDecoder::STATIC_decodeGetTitleNewsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetTitleDataResult UPlayFabClientModelDecoder::STATIC_decodeGetTitleDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetTimeResult UPlayFabClientModelDecoder::STATIC_decodeGetTimeResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetStoreItemsResult UPlayFabClientModelDecoder::STATIC_decodeGetStoreItemsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetSharedGroupDataResult UPlayFabClientModelDecoder::STATIC_decodeGetSharedGroupDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPurchaseResult UPlayFabClientModelDecoder::STATIC_decodeGetPurchaseResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPublisherDataResult UPlayFabClientModelDecoder::STATIC_decodeGetPublisherDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromXboxLiveIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromXboxLiveIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromTwitchIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromTwitchIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromSteamIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromSteamIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromPSNAccountIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromPSNAccountIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromNintendoSwitchDeviceIdsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromNintendoSwitchDeviceIdsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromKongregateIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromKongregateIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromGoogleIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromGoogleIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromGenericIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromGenericIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromGameCenterIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromGameCenterIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromFacebookInstantGamesIdsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromFacebookInstantGamesIdsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayFabIDsFromFacebookIDsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayFabIDsFromFacebookIDsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayerTradesResponse UPlayFabClientModelDecoder::STATIC_decodeGetPlayerTradesResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayerTagsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayerTagsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayerStatisticVersionsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayerStatisticVersionsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayerStatisticsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayerStatisticsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayerSegmentsResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayerSegmentsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayerProfileResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayerProfileResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPlayerCombinedInfoResult UPlayFabClientModelDecoder::STATIC_decodeGetPlayerCombinedInfoResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPhotonAuthenticationTokenResult UPlayFabClientModelDecoder::STATIC_decodeGetPhotonAuthenticationTokenResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetPaymentTokenResult UPlayFabClientModelDecoder::STATIC_decodeGetPaymentTokenResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetLeaderboardResult UPlayFabClientModelDecoder::STATIC_decodeGetLeaderboardResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetLeaderboardForUsersCharactersResult UPlayFabClientModelDecoder::STATIC_decodeGetLeaderboardForUsersCharactersResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetLeaderboardAroundPlayerResult UPlayFabClientModelDecoder::STATIC_decodeGetLeaderboardAroundPlayerResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetLeaderboardAroundCharacterResult UPlayFabClientModelDecoder::STATIC_decodeGetLeaderboardAroundCharacterResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetFriendsListResult UPlayFabClientModelDecoder::STATIC_decodeGetFriendsListResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetFriendLeaderboardAroundPlayerResult UPlayFabClientModelDecoder::STATIC_decodeGetFriendLeaderboardAroundPlayerResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetContentDownloadUrlResult UPlayFabClientModelDecoder::STATIC_decodeGetContentDownloadUrlResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetCharacterStatisticsResult UPlayFabClientModelDecoder::STATIC_decodeGetCharacterStatisticsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetCharacterLeaderboardResult UPlayFabClientModelDecoder::STATIC_decodeGetCharacterLeaderboardResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetCharacterInventoryResult UPlayFabClientModelDecoder::STATIC_decodeGetCharacterInventoryResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetCharacterDataResult UPlayFabClientModelDecoder::STATIC_decodeGetCharacterDataResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetCatalogItemsResult UPlayFabClientModelDecoder::STATIC_decodeGetCatalogItemsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGetAccountInfoResult UPlayFabClientModelDecoder::STATIC_decodeGetAccountInfoResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientGameServerRegionsResult UPlayFabClientModelDecoder::STATIC_decodeGameServerRegionsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientExecuteCloudScriptResult UPlayFabClientModelDecoder::STATIC_decodeExecuteCloudScriptResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientEmptyResult UPlayFabClientModelDecoder::STATIC_decodeEmptyResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientEmptyResponse UPlayFabClientModelDecoder::STATIC_decodeEmptyResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientCurrentGamesResult UPlayFabClientModelDecoder::STATIC_decodeCurrentGamesResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientCreateSharedGroupResult UPlayFabClientModelDecoder::STATIC_decodeCreateSharedGroupResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientConsumeXboxEntitlementsResult UPlayFabClientModelDecoder::STATIC_decodeConsumeXboxEntitlementsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientConsumePSNEntitlementsResult UPlayFabClientModelDecoder::STATIC_decodeConsumePSNEntitlementsResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientConsumeItemResult UPlayFabClientModelDecoder::STATIC_decodeConsumeItemResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientConfirmPurchaseResult UPlayFabClientModelDecoder::STATIC_decodeConfirmPurchaseResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientCancelTradeResponse UPlayFabClientModelDecoder::STATIC_decodeCancelTradeResponseResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAttributeInstallResult UPlayFabClientModelDecoder::STATIC_decodeAttributeInstallResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAndroidDevicePushNotificationRegistrationResult UPlayFabClientModelDecoder::STATIC_decodeAndroidDevicePushNotificationRegistrationResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAddUsernamePasswordResult UPlayFabClientModelDecoder::STATIC_decodeAddUsernamePasswordResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAddSharedGroupMembersResult UPlayFabClientModelDecoder::STATIC_decodeAddSharedGroupMembersResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAddOrUpdateContactEmailResult UPlayFabClientModelDecoder::STATIC_decodeAddOrUpdateContactEmailResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAddGenericIDResult UPlayFabClientModelDecoder::STATIC_decodeAddGenericIDResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAddFriendResult UPlayFabClientModelDecoder::STATIC_decodeAddFriendResultResponse(class UPlayFabJsonObject* response) {
+}
+	struct FClientAcceptTradeResponse UPlayFabClientModelDecoder::STATIC_decodeAcceptTradeResponseResponse(class UPlayFabJsonObject* response) {
+}

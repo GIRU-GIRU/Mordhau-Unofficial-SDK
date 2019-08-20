@@ -1,0 +1,2 @@
+#include "VisualLoggerDebugSnapshotInterface.h"
+

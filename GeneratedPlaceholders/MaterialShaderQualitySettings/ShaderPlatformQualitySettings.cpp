@@ -1,0 +1,2 @@
+#include "ShaderPlatformQualitySettings.h"
+

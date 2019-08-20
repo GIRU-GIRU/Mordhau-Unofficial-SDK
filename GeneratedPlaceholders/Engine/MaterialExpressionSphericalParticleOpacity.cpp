@@ -1,0 +1,2 @@
+#include "MaterialExpressionSphericalParticleOpacity.h"
+

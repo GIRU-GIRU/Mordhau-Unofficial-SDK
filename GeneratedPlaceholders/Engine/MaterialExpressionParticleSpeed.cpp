@@ -1,0 +1,2 @@
+#include "MaterialExpressionParticleSpeed.h"
+

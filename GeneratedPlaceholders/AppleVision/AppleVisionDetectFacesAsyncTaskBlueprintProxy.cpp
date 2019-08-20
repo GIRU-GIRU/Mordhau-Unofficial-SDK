@@ -1,0 +1,4 @@
+#include "AppleVisionDetectFacesAsyncTaskBlueprintProxy.h"
+
+class UAppleVisionDetectFacesAsyncTaskBlueprintProxy* UAppleVisionDetectFacesAsyncTaskBlueprintProxy::STATIC_CreateProxyObjectForDetectFaces(class UTexture* SourceImage) {
+}
